@@ -1,0 +1,47 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH CTTEX 1.22 "February 28, 2001"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+cttex \- Thai word wrapper for TeTeX/LaTeX
+.SH SYNOPSIS
+.B cttex
+.RI [cutcode] \<\ infile.tex\ \>\ outfile.tex
+.br
+.SH DESCRIPTION
+This manual page documents briefly the
+.B cttex
+commands.
+This manual page was written for the Debian GNU/Linux distribution
+.sp
+Use cttex on your TeX/LaTeX file be for compilation. For example,
+.sp
+.B cttex
+-W < yourtexfile.tex > yourtemptexfile.tex
+.sp
+.B latex
+yourtemptexfile.tex
+.sp
+or, in filter mode
+.sp
+.B cttex
+32 < infile > outfile
+.sp
+will insert blank space (ascii 32) into every breakable point.
+.b:dis:r
+.SH AUTHOR
+This manual page was written by Chanop Silpa-Anan <chanop@debian.org>,
+for the Debian GNU/Linux system (but may be used by others).

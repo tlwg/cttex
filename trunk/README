@@ -1,0 +1,61 @@
+Changes:
+========
+	New features in version 1.19 and beyond are described in
+README.th
+
+Description:
+============
+	The main part of Cttex is A Thai Word Separator algorithm using
+a dictionary. A wrapper for formatting Thai LaTeX document file is provided
+to demonstrate the use of this word-sep routine. The program can also
+be used as a simple word-sep filter.
+
+Contents:
+=========
+	cttex.c		The word-sep routine & LaTeX wrapper
+	dictsort.c	Sort contents of dictionary file
+	tdict.txt	Dict file
+	dict2c.pl	Perl script to convert tdict.txt -> tdict.h
+
+Usage:
+======
+	cttex [cutcode] < infile > outfile
+
+	'cutcode' specifies the ASCII code of character to be inserted
+in filter mode.
+
+Examples
+
+	- LaTeX mode 
+
+		cttex < foo.ttex > foo.tex
+
+	- Filter mode
+
+		cttex 32 < infile > outfile
+
+	Here, the blank (ascii 32) is inserted at every breakable
+	point.
+
+Build:
+======
+	Just type 'make'
+
+Note:
+=====
+	If you only need the word-sep routine, remove everyting
+in main() but the line
+	
+	cutcode = CUTCODE;
+
+This line defines what character to be inserted at word-breakable
+points. The main word-sep routine is dooneline().
+
+Let me know if you find any bugs or have any comment.
+
+Thank you.
+
+-------------------------------------------------------------------------
+Hui :>
+vuthi@ctrl.titech.ac.jp
+-------------------------------------------------------------------------
