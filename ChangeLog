@@ -1,0 +1,5 @@
+2001-02-23 Chanop Silpa-Anan <chanop@debian.org>
+	* Apply GPL license to cttex with permission from K.Vuthichai.
+	* Add -W option to cttex for use with thailatex package(babel version).
+	  This option uses string "\wbr " for word break code.
+	* Create ChangeLog

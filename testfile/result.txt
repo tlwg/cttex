@@ -1,0 +1,20 @@
+Result from running 
+#time cttex 32 < 2088.txt > /dev/null
+
+## 1.20 Pre
+- cc
+2.53u 0.01s 0:02.59 98.0%
+- gcc
+4.23u 0.01s 0:04.31 98.3%
+
+## 1.20 Pre2
+vuthi@thaigate[17:19] time ./cttex 32 < 2088.txt > /dev/null
+0.83u 0.02s 0:00.85 100.0%
+vuthi@thaigate[17:20] time ./cttex-cc 32 < 2088.txt > /dev/null
+0.72u 0.02s 0:00.71 104.2%
+
+## 1.20-final
+vuthi@thaigate[22:28] time ./cttex 32 < testfile/2088.txt > /dev/null
+0.04u 0.01s 0:00.05 100.0% 
+vuthi@thaigate[22:28] time ./cttex-cc 32 < testfile/2088.txt > /dev/null
+0.04u 0.01s 0:00.05 100.0%
