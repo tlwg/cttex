@@ -113,7 +113,7 @@ char *argv[];
   reportmode = 0;
   firstmode = 0;
 
-  fprintf(stderr,"C-TTeX $Revision: 1.1 $\n");
+  fprintf(stderr,"C-TTeX $Revision: 1.19 $\n");
   fprintf(stderr,"cttex -h for help usage.\n");
   fprintf(stderr,"Built-in dictionary size: %d words\n", numword);
   
@@ -945,6 +945,9 @@ void clear_stack()
 
 /*
  * $Log: not supported by cvs2svn $
+ * Revision 1.1  2001/02/28 12:31:40  chanop
+ * Import cttex 1.22 (GPL version) into cvs
+ *
  * Revision 1.21  1999/05/19 13:23:13  vuthi
  * Add -i and -m
  * use unsigned short for map[]
