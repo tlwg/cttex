@@ -1,0 +1,17 @@
+Source: cttex
+Section: tex
+Priority: optional
+Maintainer: Chanop Silpa-Anan <chanop@debian.org>
+Build-Depends: debhelper
+Standards-Version: 3.5.7
+
+Package: cttex
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Thai word separator for Thai TeTeX/LaTeX and HTML
+ This is a Thai word separator program intended for use with
+ Thai LaTeX and HTML documents.
+ .
+ Thai script is written continuously without using "space" for
+ breaking between words. A program such as LaTeX, then, needs
+ to know where to break the sentence for a newline.

@@ -1,0 +1,36 @@
+cttex (1.23) unstable; urgency=low
+
+  * Incorporate debian directory upstream
+  * Fix Build-Depends (closes: #140550)
+  * Fix spelling error (closes: #125618)
+  * Bump Standards-Version to 3.5.7
+
+ -- Chanop Silpa-Anan <chanop@debian.org>  Thu, 12 Sep 2002 13:14:32 +1000
+
+cttex (1.22-1) unstable; urgency=low
+
+  * Permission from upstream author to use GPL license
+  * New release
+  * Bump Standards-Version to 3.5.2
+
+ -- Chanop Silpa-Anan <chanop@debian.org>  Wed, 28 Feb 2001 23:11:48 +1100
+
+cttex (1.21-3) unstable; urgency=low
+
+  * Fix man page title
+  * Add upstream author's copyright statement
+
+ -- Chanop Silpa-Anan (Tim) <chanop@writeme.com>  Fri, 28 Jan 2000 11:59:38 +1100
+
+cttex (1.21-2) unstable; urgency=low
+
+  * Add man page for cttex
+
+ -- Chanop Silpa-Anan (Tim) <chanop@writeme.com>  Wed, 26 Jan 2000 02:36:47 +1100
+
+cttex (1.21-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Chanop Silpa-Anan (Tim) <chanop@writeme.com>  Mon, 10 Jan 2000 01:42:58 +1100
+
