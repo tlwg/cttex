@@ -1,7 +1,7 @@
 Source: cttex
 Section: tex
 Priority: optional
-Maintainer: Chanop Silpa-Anan <chanop@debian.org>
+Maintainer: Debian QA Group <packages@qa.debian.org>
 Build-Depends: debhelper
 Standards-Version: 3.5.7
 
